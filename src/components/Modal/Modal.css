@@ -1,0 +1,64 @@
+.modal {
+  cursor: pointer;
+  display: none;
+  position: fixed;
+  z-index: 1111;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal_active {
+  display: flex;
+}
+
+.modal__container {
+  cursor: default;
+  max-width: 600px;
+  width: 100%;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  border-radius: 5%;
+  background: #fff;
+}
+
+.slider {
+  overflow: hidden;
+}
+
+.slider__container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.slider__buttons {
+  margin: 10px 0 0;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.slider__btn {
+  cursor: pointer;
+  display: block;
+  width: 50px;
+  height: 50px;
+  transition: opacity 0.3s ease-in;
+}
+
+.slider__btn:hover {
+  opacity: 0.6;
+}
+
+.slider__btn_left {
+  background: center / contain url("../../images/slider-btn-left.svg") no-repeat;
+}
+
+.slider__btn_right {
+  background: center / contain url("../../images/slider-btn-right.svg")
+    no-repeat;
+}

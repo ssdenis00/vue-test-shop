@@ -1,0 +1,42 @@
+@import url("../../vendor/fonts/fonts.css");
+
+#body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  font-family: "Merriweather";
+  max-width: 1920px;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  background: #f6f3f3;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section {
+  padding: 0 0 45px;
+}
+
+.button {
+  height: 48px;
+  cursor: pointer;
+  padding: 0;
+  background: #403432;
+  border: none;
+  border-radius: 0;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: bold;
+  color: #ffffff;
+  transition: background-color 0.3s ease-in;
+}
+
+.button:hover {
+  background: #776763;
+}

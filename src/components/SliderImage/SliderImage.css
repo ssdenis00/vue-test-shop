@@ -1,0 +1,13 @@
+.slider__image-containder {
+  max-width: 550px;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.slider__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
